@@ -12,6 +12,10 @@ dependencies = [
     "langgraph-checkpoint-sqlite>=2.0.11", #langgraph 체크포인트 저장 라이브러리
     "langgraph-cli[inmem]>=0.4.0", #langgraph 개발서버 CLI 도구 [inmem] 인메모리 모드
     "python-dotenv>=1.1.1", #환경변수 관리
+    "langsmith>=0.2.3", #langsmith 라이브러리
+    "openai>=1.69.1", #openai 라이브러리
+    "tiktoken>=0.9.0", #tiktoken 라이브러리
+    
 ]
 
 [dependency-groups]
